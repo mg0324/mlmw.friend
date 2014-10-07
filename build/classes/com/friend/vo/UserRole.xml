@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+	<property tableColumn="id" voProperty="userRoleId" type="int"></property>
+	<property tableColumn="user_id" voProperty="user" type="User" entityClass="com.friend.vo.User">
+		<dao daoName="userDao"></dao>
+	</property>
+	<property tableColumn="role_id" voProperty="role" type="Role" entityClass="com.friend.vo.Role">
+		<dao daoName="roleDao"></dao>
+	</property>
+</properties>

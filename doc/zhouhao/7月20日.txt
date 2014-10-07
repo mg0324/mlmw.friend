@@ -1,0 +1,2 @@
+在FriendSortDao类和FriendDao类中分别增加了两个方法：findAllFriendSort()、listAllFriend()（为后台操作）
+和moveAllFriendTo()方法（FriendSortDao类）（在删除分组操作之前转移所有好友到其它分组）

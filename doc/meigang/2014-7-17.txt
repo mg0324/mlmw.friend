@@ -1,0 +1,18 @@
+/*
+作者：梅刚
+时间：2014-7-17
+*/
+
+1.工具类：
+	MakeObject:考虑到每一个实体对象都需要封装成对象，所以这里还是分开比较好
+			因此我将其该成了MakeUser.java,其中有两个方法：
+			public static List<User> makeUserListFromListMap(List<Map<String,Object>> listMaps);
+			public static User makeUserFromMap(Map<String,Object> map);
+	--经过仔细分析，可能在封装对象的时候会调用其他的dao来通过xx_id来得到xx对象。
+	所以还是讲这两个方法放在响应的dao中，比较好。
+2.UserService.updateUserInfo:
+	需要用户完善的信息：
+		user_nickname,birthday,head,home_town,
+		self_write,phone,hobbies,pwd_question,
+		pwd_answer
+

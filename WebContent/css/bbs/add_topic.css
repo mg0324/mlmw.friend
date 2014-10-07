@@ -1,0 +1,15 @@
+#add_topic_div{
+	width:970px;
+	margin: 0 auto;
+	overflow: auto;
+	background-color:white;
+	padding:10px;
+	border-bottom: 1px solid #BDBDBD;
+}
+#add_topic_div form{
+	width:800px;
+	margin: 0 auto;
+}
+.error{
+	color:red;
+}

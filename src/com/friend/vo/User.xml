@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+	<property tableColumn="id" voProperty="userId" type="int"></property>
+	<property tableColumn="username" voProperty="userName" type="string"></property>
+	<property tableColumn="user_nickname" voProperty="userNickName" type="string"></property>
+	<property tableColumn="password" voProperty="password" type="string"></property>
+	<property tableColumn="sex" voProperty="sex" type="string"></property>
+	<property tableColumn="birthday" voProperty="birthday" type="date"></property>
+	<property tableColumn="head" voProperty="head" type="string"></property>
+	<property tableColumn="hobbies" voProperty="hobbies" type="string"></property>
+	<property tableColumn="create_time" voProperty="createTime" type="date"></property>
+	<property tableColumn="self_write" voProperty="selfWrite" type="string"></property>
+	<property tableColumn="phone" voProperty="phone" type="string"></property>
+	<property tableColumn="home_town" voProperty="homeTown" type="string"></property>
+	<property tableColumn="email" voProperty="email" type="string"></property>
+	<property tableColumn="pwd_question" voProperty="pwdQuestion" type="string"></property>
+	<property tableColumn="pwd_answer" voProperty="pwdAnswer" type="string"></property>
+	<property tableColumn="status" voProperty="status" type="int"></property>
+</properties>

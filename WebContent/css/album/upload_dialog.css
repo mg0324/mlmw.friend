@@ -1,0 +1,10 @@
+#upload_photo_dialog{
+	width:1300px;
+	margin: 0 auto;
+	overflow: auto;
+	background-color:#ffffff;
+	padding-top:10px;
+	border-bottom: 1px solid #BDBDBD;
+	padding-left: 70px;
+	padding-bottom: 10px;
+}

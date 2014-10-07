@@ -1,0 +1,2 @@
+对之前写的servlet方法和jsp页面进行了完善，新增加了createSort（）、setBlack（）、addFriend（）方法，并写了相应
+的jsp文件。

@@ -1,0 +1,167 @@
+body{
+	margin:0 auto;
+	padding: 0;
+	background-color: #FAFAFA;
+	color:gray;
+}
+
+.ownner{
+	width:970px;
+	text-align: center;
+	color: gray;
+	font-size:13px;
+	padding-top: 10px;
+	line-height: 30px;
+	
+}
+.green{
+	color:green;
+}
+redStar{
+	font-size: 18px;
+	color:red;
+}
+
+.blue{
+	color:blue;
+	
+}
+gray{
+	color:gray;
+	font-size:15px;
+}
+red{
+	color:red;
+}
+.white{
+	color:white;
+}
+.width2{
+	width:50%;
+	
+}
+
+
+/*
+表单错误信息显示样式
+*/
+.input_error{
+	display:block;
+	color:red;
+	font-size:12px;
+	line-height:50px;
+	margin-left:10px;	
+	float: right;
+}
+/*验证框架错误提示信息样式*/
+.error{
+	color:red;
+}
+/****/
+#main_content{
+	width:970px;
+	margin: 0 auto;
+	background-color:white;
+	padding-top:90px;
+	overflow: auto;
+	border-bottom: 1px solid #BDBDBD;
+}
+#main_content_left{
+	width:180px;
+	height: 400px;
+	float: left;
+	
+}
+#main_content_center{
+	width:550px;
+	height: 400px;
+	float: left;
+	border-left: 1px solid #bdbdbd;
+	border-right: 1px solid #BDBDBD;
+}
+#main_content_right{
+	width:230px;
+	height: 400px;
+	float: left;
+	margin-left:5px;
+	
+}
+#main_content_headArea{
+	border-bottom: 1px solid #BDBDBD;
+}
+
+#main_content_left_function_list{
+	list-style-type: none;
+	width:180px;
+	padding: 0;
+	padding-left:40px;
+}
+#main_content_left_function_list li{
+	width:100%;
+	height: 30px;
+	line-height:25px;
+	
+	color:gray;
+	
+	margin-top: 5px;
+}
+#main_content_left_function_list li a{
+	display:block;
+	width:100%;
+	height:30px;
+	font-size:16px;
+	color:gray;
+}
+#main_content_left_function_list li a:hover{
+	text-decoration: none;
+	
+}
+#main_content_left_function_list li:hover{
+	background-color: #BDBDBD;
+}
+.main_left_user_nickname{
+	display:block;
+	padding-left:40px;
+	color:gray;
+}
+
+.font12px{
+	font-size:12px;
+	color:gray;
+}
+
+
+/****/
+
+/*
+自定义图标
+*/
+.mgang_home_logo{
+	display:block;
+	width:25px;
+	height:25px;
+	float:left;
+	background: url("../image/home_logo.png") no-repeat left center;
+}
+.mgang_setting_logo{
+	display:block;
+	width:32px;
+	height:32px;
+	float:left;
+	background: url("../image/setting.png") no-repeat center center;
+}
+.mgang_bbs_gray_logo{
+	display:block;
+	width:25px;
+	height:25px;
+	float:left;
+	background: url("../image/bbs_gray_logo.gif") no-repeat center center;
+}
+
+.mgang_toolbar{
+	display: block;
+	width:100%;
+	height: 40px;
+	padding: 4px;
+	border: 1px solid #bdbdbd;
+}

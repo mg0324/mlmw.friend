@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+	<property tableColumn="id" voProperty="moduleId" type="int"></property>
+	<property tableColumn="topic_id" voProperty="topic" type="Topic" entityClass="com.friend.vo.Topic">
+		<dao daoName="topicDao"></dao>
+	</property>
+	<property tableColumn="comment_id" voProperty="comment" type="Comment" entityClass="com.friend.vo.Comment">
+		<dao daoName="commentDao"></dao>
+	</property>
+</properties>
+	

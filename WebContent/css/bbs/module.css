@@ -1,0 +1,55 @@
+#bbs_main_content{
+	width:970px;
+	margin: 0 auto;
+	background-color:white;
+	padding-top:10px;
+	overflow: auto;
+	border-bottom: 1px solid #BDBDBD;
+}
+
+#bbs_module_div{
+	width:100%;
+	margin-bottom: 10px;
+}
+.module_title{
+	display:block;
+	width:95%;
+	height: 30px;
+	line-height: 30px;
+	font-size:15px;
+	color:white;
+	font-weight:bold;
+	margin:0 auto;
+	background-color: #9DC9FA;
+}
+.module_content{
+	display: block;
+	width: 95%;
+	margin: 0 auto;
+	overflow: auto;
+	border: 1px solid #BDBDBD;
+	border-top: none;
+	padding-bottom: 23px;
+}
+#module_ul{
+	list-style-type: none;
+	width: 100%;
+}
+#module_ul li{
+	float: left;
+	margin-left: 23px;
+	margin-top:23px;
+	width: 270px;
+	height: 120px;
+	padding:10px;
+	border: 1px solid #BDBDBD;
+	border-radius:8px;
+}
+.module_name{
+	display: block;
+	float:right;
+	width:120px;
+	font-size: 20px;
+	font-family:ËÎÌו;
+	color:blue;
+}

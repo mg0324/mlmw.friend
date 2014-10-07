@@ -1,0 +1,33 @@
+/*
+作者：梅刚
+时间：2014-7-16 15:00
+*/
+项目建立：
+	src/
+	com.friend.vo --- 实体包
+	com.friend.dao --- 数据库访问层包
+	com.friend.service.ibiz --- 业务类的接口包
+	com.friend.service.biz --- 业务类的实现包
+	com.friend.util --- 工具包
+	com.friend.web.servlet --- servlet层包
+	
+	test/
+	...这些都是测试单元的包，一般的是使用Junit4测试。测试com.friend.dao中的
+	UserDao类就在test/com.friend.dao中建立一个TestUserDao的类。
+	
+	build --- eclipse的编译目录
+	doc --- 项目的文档，最好建立自己姓名全称的文件夹来管理。
+	backClient --- 后台
+	css --- 项目依赖的css样式
+	frontClient -- 前台
+	image --- 项目依赖的图片
+	js --- 项目依赖的js资源
+	WEB-INF/web.xml --- web项目容器
+	
+本项目使用：jsp+servlet3技术来完成后台。
+文件编码，项目编码都统一成utf-8,数据库friend的编码也是utf-8.
+
+servlet3的话，就不需要再web.xml文件中配置servlet了，使用注解配置即可。
+大家不会servlet3的话，建议在网上找点资料看下。
+
+

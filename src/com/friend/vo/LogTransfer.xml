@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+	<property tableColumn="id" voProperty="logTransferId" type="int"></property>
+	<property tableColumn="transfer_id" voProperty="transferUser" type="User"  entityClass="com.friend.vo.User">
+	<dao daoName="userDao"></dao></property>
+	<property tableColumn="owner_id" voProperty="ownerUser" type="User" entityClass="com.friend.vo.User">
+	<dao daoName="userDao"></dao></property>
+	<property tableColumn="log_id" voProperty="log" type="Log" entityClass="com.friend.vo.Log">
+	<dao daoName="logDao"></dao></property>
+	<property tableColumn="transfer_time" voProperty="transferTime" type="date"></property>
+</properties>

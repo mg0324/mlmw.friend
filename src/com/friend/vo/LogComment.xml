@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+	<property tableColumn="id" voProperty="logCommentId" type="int"></property>
+	<property tableColumn="log_id" voProperty="log" type="Log" entityClass="com.friend.vo.Log">
+	<dao daoName="logDao"></dao></property>
+	<property tableColumn="comment_id" voProperty="comment" type="Comment" entityClass="com.friend.vo.Comment">
+	<dao daoName="commentDao"></dao></property>
+</properties>

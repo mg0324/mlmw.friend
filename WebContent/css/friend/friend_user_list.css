@@ -1,0 +1,60 @@
+#list{
+	width:767px;
+	height:313px;
+	font-size:12px;
+	text-align:center;
+}
+#list table{
+	width:700px;
+	margin-top:20px;
+	margin-left:10px;
+}
+#list .td_width0{
+	width:50px;
+	height:50px;
+}
+.td_width1{ 
+	width:350px;
+}
+
+.td_width2{
+	width:80px;
+}
+
+.td_width3{
+	width:50px;
+}
+.user-unit{
+	width:176px;
+	height:65px;
+	margin-left:9px;
+	margin-top:10px;
+	float:left;
+}
+.user-unit .user-unit-left{
+	width:65px;
+	height:65px;
+	float:left;
+}
+.user-unit .user-unit-left img{
+	width:63px;
+	height:63px;
+	border-radius:4px;
+}
+.user-unit .user-unit-right{
+	width:104px;
+	height:70px;
+	margin-left:5px;
+	float:left;
+}
+.user-unit .user-unit-right .message{
+	float:left;
+	text-align:left;
+}
+.user-unit .user-unit-right .add_div{
+	clear:both;
+	width:45px;
+	border-radius:3px;
+	background-color:#8FC0E7;
+	cursor:pointer;
+}

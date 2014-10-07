@@ -1,0 +1,47 @@
+#album_main_content{
+	width:970px;
+	margin: 0 auto;
+	overflow: auto;
+	background-color:white;
+	padding-top:1px;
+	border-bottom: 1px solid #BDBDBD;
+	padding-left: 1px;
+	padding-bottom: 1px;
+}
+#album_main_right{
+	float: right;
+	margin-right: 10px;
+	padding:10px;
+	width:780px;
+	border-left: 1px solid #BDBDBD;
+}
+
+#album_main{
+	width:720px;
+	list-style-type: none;
+	
+}
+#album_main li{
+	float: left;
+	width: 150px;
+	height: 200px;
+	margin-right: 30px;
+	background-color: white;
+	margin-top: 10px;
+	padding:5px;
+}
+#album_main li img{
+	border: 1px solid #BDBDBD;
+}
+.album_li_info{
+	display: block;
+	margin-top: 5px;
+	font-size:12px;
+	color:gray;
+}
+#left{
+	width:150px;
+	float: left;
+	padding: 1px;
+}
+

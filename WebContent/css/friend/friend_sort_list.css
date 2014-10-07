@@ -1,0 +1,64 @@
+#list{
+	width:767px;
+	height:288px;
+	float:left;
+}
+
+#list table{
+	width:580px;
+	text-align:center;
+	margin-top:20px;
+	margin-left:10px;
+	float:left;
+}
+#td_width1{
+	width:130px;
+	height:30px;
+}
+#td_width2{
+	width:269px;
+}
+
+.td_width2 input{
+	width:160px;
+	margin:0;
+}
+#a_btn{
+	float:left;
+	margin-top:20px;
+	margin-left:84px;
+}
+#input_size1{
+	width:90px;
+	height:28px; 
+	margin-top:1px;
+}
+#input_size2{
+	width:40px;
+	margin-top:1px;
+}
+#create_btn{
+	
+	margin-bottom:6px;
+	margin-left:330px;
+}
+#create_div{
+	text-align:center;
+}
+#create_div #div_text{
+	margin-top:0;
+	width:80px;
+}
+#create_div input{
+	margin-top:10px;
+}
+#rename-div{
+	width:150px;
+	float:left;
+	display:none;
+}
+#input-div{
+	margin-left:15px;
+	width:140px;
+	text-align:left;
+}

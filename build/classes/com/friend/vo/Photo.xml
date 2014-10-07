@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+	<property tableColumn="id" voProperty="photoId" type="int"></property>
+	<property tableColumn="photo_name" voProperty="photoName" type="string"></property>
+	<property tableColumn="photo_desc" voProperty="photoDesc" type="string"></property>
+	<property tableColumn="photo_path" voProperty="photoPath" type="string"></property>
+	<property tableColumn="upload_time" voProperty="uploadTime" type="date"></property>
+	<property tableColumn="album_id" voProperty="album" type="Album" entityClass="com.friend.vo.Album">
+		<dao daoName="albumDao"></dao>
+	</property>
+</properties>

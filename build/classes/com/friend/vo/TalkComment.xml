@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+	<property tableColumn="id" voProperty="talkCommentId" type="int"></property>
+	<property tableColumn="talk_id" voProperty="talk" type="Talk" entityClass="com.friend.vo.Talk">
+		<dao daoName="talkDao"></dao>
+	</property>
+	<property tableColumn="comment_id" voProperty="comment" type="Comment" entityClass="com.friend.vo.Comment">
+		<dao daoName="commentDao"></dao>
+	</property>
+</properties>

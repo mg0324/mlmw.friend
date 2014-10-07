@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+	<property tableColumn="id" voProperty="commentId" type="int"></property>
+	<property tableColumn="content" voProperty="content" type="string"></property>
+	<property tableColumn="author" voProperty="author" type="string"></property>
+	<property tableColumn="publish_time" voProperty="publishTime" type="date"></property>
+	<property tableColumn="comment_type" voProperty="commentType" type="string"></property>
+	<property tableColumn="user_id" voProperty="user" type="User" entityClass="com.friend.vo.User">
+		<dao daoName="userDao"></dao>
+	</property>
+</properties>

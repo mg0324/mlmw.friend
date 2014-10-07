@@ -1,0 +1,141 @@
+#main_log_content{
+	width:970px;
+	margin:0 auto;
+	border-bottom: 1px solid #bdbdbd;
+	padding:10px;
+	overflow: hidden;
+	background-color: white;
+	
+}
+#log_list_title{
+	width:95%;
+	margin:0 auto;
+	font-size:15px;
+	height: 30px;
+	padding-left:10px;
+	line-height: 30px;
+}
+#log_list_content{
+	padding:5px;
+	width:95%;
+	margin:0 auto;
+	min-height: 400px;
+	overflow:hidden;
+}
+.log_btns{
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-bottom:5px;
+}
+#log_sort_list{
+	width:25%;
+	min-height:300px;
+	overflow:hidden;
+	float:right;
+	border: 1px solid #bdbdbd;
+	border-top:none;
+}
+#log_sort_list ul{
+	list-style-type: none;
+	width:95%;
+	margin: 0 auto;
+	
+}
+#log_sort_list ul li{
+	margin-top:10px;
+}
+#log_list{
+	width:73%;
+	float: left;
+	min-height:360px;
+	overflow:hidden;
+	border: 1px solid #bdbdbd;
+	border-top:none;
+}
+#log_list ul{
+	height:330px;
+	list-style-type: none;
+}
+#log_list ul li{
+	width:100%;
+	padding:10px;
+}
+.log_title{
+	width:100%;
+	height: 25px;
+	line-height: 25px;
+	padding-left:10px;
+}
+.log_publish_time{
+	float:right;
+	margin-right: 10px;
+}
+.log_view_comment_count{
+	float:right;
+	margin-right: 110px;
+}
+#log_left_ownner{
+	width:150px;
+	float: left;
+	height: 400px;
+}
+#log_right_content{
+	width:83%;
+	float:right;
+	border-left:1px solid #bdbdbd;
+	height: 400px;
+}
+.ownner_head{
+	width:150px;
+	padding:15px;
+}
+.infoToBottom{
+	
+}
+.log_content{
+	height: 380px;
+	overflow: hidden;
+	padding: 10px;
+}
+#log_ownner{
+	margin-top:10px;
+	border: 1px solid #bdbdbd;
+	overflow: hidden;
+}
+#add_topic_comment{
+	height: 240px;
+	margin:0 auto;
+	margin-top:20px;
+	margin-bottom:10px;
+	border: 1px solid #BDBDBD;
+}
+.comment_right{
+	width:83%;
+	float: right;
+}
+.topic_comment_info{
+	width:83%;
+	float: right;
+}
+.topic_comment_headArea{
+	width:150px;
+	float: left;
+	padding: 15px;
+}
+.topic_head_img{
+	border: 1px solid #BDBDBD;
+	padding: 5px;
+}
+#list_div{
+	
+	
+}
+
+.div_title{
+	width:100%;
+	margin:0 auto;
+	height: 20px;
+	background-color: #A5C9F2;
+	line-height: 20px;
+	color:white;
+}

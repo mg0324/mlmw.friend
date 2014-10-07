@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 所有service用到的dao配置  梅刚 2014-8-2-->
+<modules>
+	<module name="user">
+		<dao name="permissionDao" class="com.friend.dao.PermissionDao"/>
+		<dao name="userDao" class="com.friend.dao.UserDao"/>
+		<dao name="userRoleDao" class="com.friend.dao.UserRoleDao"/>
+		<dao name="roleDao" class="com.friend.dao.RoleDao"/>
+		<dao name="rolePermissionDao" class="com.friend.dao.RolePermissionDao"/>
+	</module>
+	<module name="friend">
+		<dao name="friendDao" class="com.friend.dao.FriendDao"/>
+		<dao name="friendSortDao" class="com.friend.dao.FriendSortDao"/>
+	</module>
+	<module name="talk">
+		<dao name="commentDao" class="com.friend.dao.CommentDao"/>
+		<dao name="replyDao" class="com.friend.dao.ReplyDao"/>
+		<dao name="talkDao" class="com.friend.dao.TalkDao"/>
+		<dao name="talkPraiseDao" class="com.friend.dao.TalkPraiseDao"/>
+		<dao name="talkCommentDao" class="com.friend.dao.TalkCommentDao"/>
+	</module>
+	<module name="log">
+		<dao name="logCommentDao" class="com.friend.dao.LogCommentDao"/>
+		<dao name="logDao" class="com.friend.dao.LogDao"/>
+		<dao name="logPraiseDao" class="com.friend.dao.LogPraiseDao"/>
+		<dao name="logSortDao" class="com.friend.dao.LogSortDao"/>
+		<dao name="logTransferDao" class="com.friend.dao.LogTransferDao"/>
+	</module>
+	<module name="album">
+		<dao name="albumDao" class="com.friend.dao.AlbumDao"/>
+		<dao name="photoDao" class="com.friend.dao.PhotoDao"/>
+	</module>
+	<module name="bbs">
+		<dao name="attachmentDao" class="com.friend.dao.AttachmentDao"/>
+		<dao name="moduleDao" class="com.friend.dao.ModuleDao"/>
+		<dao name="topicDao" class="com.friend.dao.TopicDao"/>
+		<dao name="topicCommentDao" class="com.friend.dao.TopicCommentDao"/>
+	</module>
+</modules>

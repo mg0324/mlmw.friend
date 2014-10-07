@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+	<property tableColumn="id" voProperty="rolePermissionId" type="int"></property>
+	<property tableColumn="role_id" voProperty="role" type="Role" entityClass="com.friend.vo.Role">
+		<dao daoName="roleDao"></dao>
+	</property>
+	<property tableColumn="permission_ids" voProperty="permisssionIds" type="string"></property>
+</properties>

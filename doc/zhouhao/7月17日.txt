@@ -1,0 +1,12 @@
+1.由于是第一次做项目，对接口编程不是很理解，在分配完模块后大家开始写代码时，感觉无从下手，所有先花时间读
+了其他人已经提交的代码，同时学会了DButils工具包的用法，之后才开始写代码。之后在service类中实现各接口
+的过程中，发现需要不断地增减方法或更改方法的形参才能覆盖该模块的所有功能，从而导致对接口和dao类频繁的修
+改。经分析发现只要对数据库的操作足够丰富，足够service层业务的调用，之后只要理清service层对dao类各方法
+的调用关系，dao层就基本固定了。后来根据模块的功能为对应的数据表写了许多功能单一又灵活的方法（增删改查），
+迅速调整了service方法及调用关系，最后修改接口。
+2.完成主要代码:
+	FriendDao,FriendService,FriendSortDao,FriendSortService
+3.增加的特殊方法：
+	getXXXById():通过id号获取对象(dao层)
+	makeXXXListFromListMap():将Map对象转换为List<XXX>(dao层)
+	makeXXXFromMap():将Map对象中的一个元素封装成XXX对象(dao层)

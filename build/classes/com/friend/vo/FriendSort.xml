@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+	<property tableColumn="id" voProperty="friendSortId" type="int"></property>
+	<property tableColumn="friend_count" voProperty="friendCount" type="int"></property>
+	<property tableColumn="sort_name" voProperty="sortName" type="string"></property>
+	<property tableColumn="create_time" voProperty="createTime" type="date"></property>
+	<property tableColumn="user_id" voProperty="user" type="User" entityClass="com.friend.vo.User">
+		<dao daoName="userDao"></dao>
+	</property>
+	
+</properties>
+

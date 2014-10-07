@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+	<property tableColumn="id" voProperty="talkId" type="int"></property>
+	<property tableColumn="content" voProperty="content" type="string"></property>
+	<property tableColumn="author" voProperty="author" type="string"></property>
+	<property tableColumn="publish_time" voProperty="publishTime" type="date"></property>
+	<property tableColumn="last_update_time" voProperty="lastUpdateTime" type="date"></property>
+	<property tableColumn="comment_count" voProperty="commentCount" type="int"></property>
+	<property tableColumn="view_count" voProperty="viewCount" type="int"></property>
+	<property tableColumn="praise_count" voProperty="praiseCount" type="int"></property>
+	<property tableColumn="user_id" voProperty="user" type="User" entityClass="com.friend.vo.User">
+		<dao daoName="userDao"></dao>
+	</property>
+</properties>

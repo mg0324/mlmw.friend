@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+	<property tableColumn="id" voProperty="roleId" type="int"></property>
+	<property tableColumn="role_name" voProperty="roleName" type="string"></property>
+	<property tableColumn="role_grade" voProperty="roleGrade" type="string"></property>
+</properties>

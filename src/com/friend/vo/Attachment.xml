@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+	<property tableColumn="id" voProperty="attachmentId" type="int"></property>
+	<property tableColumn="attachment_name" voProperty="attachmentName" type="string"></property>
+	<property tableColumn="attachment_size" voProperty="attachmentSize" type="int"></property>
+	<property tableColumn="topic_id" voProperty="topic" type="Topic" entityClass="com.friend.vo.Topic">
+		<dao daoName="topicDao"></dao>
+	</property>
+	<property tableColumn="attachment_path" voProperty="attachmentPath" type="string"></property>
+	<property tableColumn="upload_time" voProperty="uploadTime" type="date"></property>
+</properties>
+	
+	

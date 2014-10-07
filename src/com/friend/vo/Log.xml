@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+	<property tableColumn="id" voProperty="logId" type="int"></property>
+	<property tableColumn="log_title" voProperty="logTitle" type="string"></property>
+	<property tableColumn="content" voProperty="content" type="string"></property>
+	<property tableColumn="comment_count" voProperty="commentCount" type="int"></property>
+	<property tableColumn="view_count" voProperty="viewCount" type="int"></property>
+	<property tableColumn="publish_time" voProperty="publishTime" type="date"></property>
+	<property tableColumn="last_update_time" voProperty="lastUpdateTime" type="date"></property>
+	<property tableColumn="transfer_count" voProperty="transferCount" type="int"></property>
+	<property tableColumn="top_flag" voProperty="topFlag" type="string"></property>
+	<property tableColumn="author_id" voProperty="author" type="User" entityClass="com.friend.vo.User">
+		<dao daoName="userDao"></dao>
+	</property>
+	<property tableColumn="sort_id" voProperty="logSort" type="LogSort" entityClass="com.friend.vo.LogSort">
+		<dao daoName="logSortDao"></dao>></property>
+</properties>

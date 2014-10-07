@@ -1,0 +1,180 @@
+#navbar_size{
+	height:60px;
+	
+}
+#navbar_brand{
+	margin:0px;
+	padding:0px;
+}
+nav{
+	background-color:#9F3;
+}
+#main_navContent{
+	width:970px;
+}
+#main_navMainContent{
+	margin:0px;
+	padding:0px;
+	padding-left:170px;
+}
+#main_headLink a{
+	display:block;
+	height: 60px;
+	width:85px;
+	padding:0px;
+	line-height: 60px;
+	font-size:15px;
+	text-align: center;
+	font-weight: bold;
+	
+	
+}
+.main_navLinkTitle{
+	display: block;
+	float: left;
+}
+.main_logoAlign{
+	margin-top:17px;
+	margin-left:10px;
+}
+
+.main_queryBtn:HOVER{
+	cursor: pointer;
+	background-color:white;
+}
+#main_rightHeadLink li{
+	height:60px;
+
+	padding:0px;
+	line-height:60px;
+	
+}
+#main_rightHeadLink li a:hover{
+	
+	color:blue;
+}
+#main_rightDropdownLink{
+	
+}
+#main_rightHeadLink span{
+	font-size:13px;
+}
+#main_rightHeadLink span:hover{
+	background-color: gray;
+}
+#main_settingLogoLink{
+	padding: 0px;
+	
+}
+#main_settingLogoLink span{
+	width:40px;
+	height: 40px;
+}
+.main_settingAlign{
+	margin-top:8px;
+}
+#main_dropdownLinkItem li{
+	height: 30px;
+	
+}
+
+
+
+
+
+
+.main_left_selfwrite{
+	font-size:12px;
+	color:red;
+}
+.mgang_test_head{
+	display:block;
+	padding-left:40px;
+}
+
+#main_talk_div{
+	width:550px;
+	padding:0 5px;
+	
+}
+#main_talk_div .input{
+	width:100%;
+	height: 100px;
+	margin-bottom: 5px;
+}
+span.emotion{
+	width:42px; 
+	height:20px; 
+	background:url(../../image/face.gif) no-repeat 2px 2px; 
+	padding-left:20px; 
+	cursor:pointer;
+}
+span.emotion:hover{
+	background-position:2px -28px
+}
+.sub_btn{
+	float: right;
+}
+
+.widthP50{
+	width:50%;
+	float: left;
+	margin-left:10px;
+}
+.widthP30{
+	width:30%;
+	float: right;
+	margin-right:10px;
+}
+.widthP40{
+	width:40%;
+	float: right;
+	margin-right:10px;
+}
+
+.noDis{
+	padding: 5px;
+	margin: 0;
+}
+.panelTitle{
+	display:block;
+	height:28px;
+	font-size: 12px;
+	line-height:28px;
+	color:red;
+	padding-left:10px;
+	background-color:#74B2DB;
+}
+.panelHandle{
+	display: block;
+	height: 28px;
+	padding:0;
+	margin: 0;
+	
+	line-height: 28px;
+}
+#new_vips{
+	padding:0;
+	margin:0;
+	line-height: 25px;
+	list-style-type: none;
+}
+#new_vips li{
+	display:block;
+	height:25px;
+	margin-top:5px;
+	font-size:12px;
+	color:gray;
+}
+.span_username{
+	display: inline-block;
+}
+.span_userNickName{
+	display: inline-block;margin-left: 80px;
+}
+.span_userCreateTime{
+	display: inline-block;margin-left: 80px;
+}
+.title_pull_right{
+	height: 30px;
+}

@@ -1,0 +1,27 @@
+#findPwd{
+	width:970px;
+	margin: 0 auto;
+}
+.friend_title_logo{
+	margin-top: 70px;
+}
+.form_title{
+	font: 15px bold;
+	border-bottom: 1px dashed #BDBDBD;
+}
+#find_pwd_area{
+	background-color: white;
+	border: 1px solid #BDBDBD;
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+	padding: 20px;
+}
+#find_pwd_area form{
+	margin-top: 30px;
+}
+#validateCodeImg{
+	float: right;
+	border-radius:5px;
+	margin-right:35px;
+	border: 1px solid #BDBDBD;
+}

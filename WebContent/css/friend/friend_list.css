@@ -1,0 +1,93 @@
+#list{
+	width:767px;
+	height:385px;
+	text-align:center;
+	font-size:14px;
+}
+#div-case{
+	width:749px;
+	height:375px;
+	float:left;
+}
+.case-unit{
+	float:left;
+	width:165px;
+	margin-left:19px;
+	margin-top:15px;
+	margin-bottom:15px;
+}
+.friend-left{
+	float:left;
+}
+.friend-right{
+	height:80px;
+	margin-left:10px;
+	text-align:left;
+	float:left;
+}
+.focus{
+	width:55px;
+	margin-top:4px;
+	margin-bottom:6px;
+	background-color:#8FC0E7;
+	border-radius:3px;
+	cursor:pointer;
+	text-align:center;
+}
+.picture{
+	width:80px;
+	height:80px;
+	border-radius:5px;
+}
+
+.operation{
+	height:29px;
+	margin-top:5px;
+	margin-left:none;
+	text-align:left;
+	width:73px;
+}
+.oper{
+	height:28px;
+	width:53px;
+	margin-left:none;
+}
+.a1{
+	text-decoration:none;
+	width:73px;
+	color:white;
+	position:relative;
+	z-index:5;
+	cursor:pointer;
+}
+.a2{
+	text-decoration:none;
+	text-align:left;
+	color:white;
+	width:70px;
+	font-size:13px;
+	position:relative;
+	z-index:5;
+}
+.move-ul li:hover{
+	background-color:#93DBE8;
+}.move-ul a:hover{
+	text-decoration:none;
+	color:black;
+}
+.operation-ul .a1:hover,li:hover,move-ul li:hover{
+	text-decoration:none;
+	background-color:#93DBE8;
+	color:black;
+}
+.operation li{
+	list-style-type:none;
+	text-align:left;
+	display:none;
+}
+
+.uff,.ff{
+	width:20px;
+	height:17px;
+	border-radius:2px;
+}

@@ -1,0 +1,15 @@
+#bTopDiv{
+	height:100px;
+	width:100%;
+	margin:0px;
+	padding:0px;
+	margin-left: 12px;
+	background: url("../image/btop.gif") left top no-repeat;
+	border-bottom: 1px solid #bdbdbd;
+}
+
+body{
+	margin: 0px;
+	padding:0px;
+	background: white;
+}

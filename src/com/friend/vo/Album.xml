@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+	<property tableColumn="id" voProperty="albumId" type="int"></property>
+	<property tableColumn="album_name" voProperty="albumName" type="string"></property>
+	<property tableColumn="album_desc" voProperty="albumDesc" type="string"></property>
+	<property tableColumn="create_time" voProperty="createTime" type="date"></property>
+	<property tableColumn="user_id" voProperty="user" type="User" entityClass="com.friend.vo.User">
+		<dao daoName="userDao"></dao>
+	</property>
+</properties>

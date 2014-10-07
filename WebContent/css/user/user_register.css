@@ -1,0 +1,96 @@
+body{
+	background:#D4DEE7;
+}
+.reg_content{
+	margin:0 auto;
+	width:820px;
+	padding: 0px;
+	padding-top:50px;
+}
+.reg_rightDesc{
+	float: right;
+	margin-top: 30px;
+	color:gray;
+}
+.reg_regDiv{
+	width:820px;
+	border-radius:10px;
+	overflow:auto;
+	background-color: white;
+}
+.reg_regDiv form{
+	width:820px;
+	text-align: center;
+}
+.reg_linkIndex{
+	float: right;
+	margin-top:8px;
+}
+.reg_sexAlgin{
+	line-height: 34px;
+	width:12%;
+	color:gray;
+}
+.reg_inputHeadAlgin{
+	margin-top:5px;
+	color:gray;
+}
+.reg_inputAgreeStyle{
+	font-size:12px;
+	color:gray;
+	line-height: 34px;
+	width:28%;
+	height: 34px;
+}
+#inputCheckCode{
+	width:200px;
+}
+#reg_validateCodeImg{
+	display:block;
+	float: right;
+	border: solid gray 1px;
+	border-radius:5px;
+	margin-right: 73px;
+}
+.reg_select{
+	width:30%;
+	float:left;
+}
+
+.inputWidth250{
+	width:250px;
+	float:left;
+}
+
+#reg_form div div label{
+	display:block;
+	color:red;
+	font-size:12px;
+	line-height:50px;
+	margin-left:10px;	
+	float: left;
+}
+
+#friend_protocol{
+	padding:0px;
+}
+
+#friend_protocol .panel div{
+	width:948px;
+	padding:5px;
+}
+.friend_protocol_btn{
+	text-align: center;
+}
+.protocol{
+	font-size:15px;
+	border-bottom: 1px solid #F4F4F4;
+}
+.error_info{
+	display:block;
+	color:red;
+	font-size:12px;
+	line-height:50px;
+	margin-left:10px;
+	float:left;	
+}

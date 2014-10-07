@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+	<property tableColumn="id" voProperty="friendId" type="int"></property>
+	<property tableColumn="user_id" voProperty="user" type="User" entityClass="com.friend.vo.User">
+		<dao daoName="userDao"></dao>
+	</property>
+	<property tableColumn="user_friend_id" voProperty="userFriend" type="User" entityClass="com.friend.vo.User">
+		<dao daoName="userDao"></dao>
+	</property>
+	<property tableColumn="friend_sort_id" voProperty="friendSort" type="FriendSort" entityClass="com.friend.vo.FriendSort">
+		<dao daoName="friendSortDao"></dao>
+	</property>
+	<property tableColumn="build_time" voProperty="buildTime" type="date"></property>
+	<property tableColumn="last_talk_time" voProperty="lastTalkTime" type="date"></property>
+	<property tableColumn="focus" voProperty="focus" type="string"></property>
+	<property tableColumn="black_flag" voProperty="blackFlag" type="string"></property>
+	
+</properties>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+	<property tableColumn="id" voProperty="permissionId" type="int"></property>
+	<property tableColumn="permission_name" voProperty="permissionName" type="string"></property>
+	<property tableColumn="permission_note" voProperty="permissionNote" type="string"></property>
+	<property tableColumn="permission_type" voProperty="permissionType" type="string"></property>
+</properties>

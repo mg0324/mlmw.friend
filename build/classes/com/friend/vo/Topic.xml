@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+	<property tableColumn="id" voProperty="topicId" type="int"></property>
+	<property tableColumn="topic_title" voProperty="topicTitle" type="string"></property>
+	<property tableColumn="content" voProperty="content" type="string"></property>
+	<property tableColumn="user_id" voProperty="user" type="User" entityClass="com.friend.vo.User">
+		<dao daoName="userDao"></dao>
+	</property>
+	<property tableColumn="publish_time" voProperty="publishTime" type="date"></property>
+	<property tableColumn="last_update_time" voProperty="lastUpdateTime" type="date"></property>
+	<property tableColumn="module_id" voProperty="module" type="Module" entityClass="com.friend.vo.Module">
+		<dao daoName="moduleDao"></dao>
+	</property>
+	<property tableColumn="status" voProperty="status" type="int"></property>
+	<property tableColumn="comment_num" voProperty="commentNum" type="int"></property>
+</properties>
+	

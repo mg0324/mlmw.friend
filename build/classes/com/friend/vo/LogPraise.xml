@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property tableColumn="id" voProperty="logPraiseId" type="int"></property>
+	<property tableColumn="log_id" voProperty="log" type="Log" entityClass="com.friend.vo.Log">
+	<dao daoName="logDao"></dao></property>
+	<property tableColumn="user_id" voProperty="user" type="User" entityClass="com.friend.vo.User">
+	<dao daoName="userDao"></dao></property>
+	<property tableColumn="praise_time" voProperty="praiseTime" type="date"></property>
+	</properties>
+	
+	

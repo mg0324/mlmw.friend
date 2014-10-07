@@ -1,0 +1,1 @@
+美化页面代码：sorts.jsp、searchUser.jsp、friends.jsp

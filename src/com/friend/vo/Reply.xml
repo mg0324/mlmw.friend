@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+	<property tableColumn="id" voProperty="replyId" type="int"></property>
+	<property tableColumn="content" voProperty="content" type="string"></property>
+	<property tableColumn="author" voProperty="author" type="string"></property>
+	<property tableColumn="publish_time" voProperty="publishTime" type="date"></property>
+	<property tableColumn="user_id" voProperty="user" type="User" entityClass="com.friend.vo.User">
+		<dao daoName="userDao"></dao>
+	</property>
+	<property tableColumn="last_replayer_id" voProperty="lastReplayer" type="User" entityClass="com.friend.vo.User">
+		<dao daoName="userDao"></dao>
+	</property>
+	<property tableColumn="comment_id" voProperty="comment" type="Comment" entityClass="com.friend.vo.Comment">
+		<dao daoName="commentDao"></dao>
+	</property>
+</properties>

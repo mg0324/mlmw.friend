@@ -1,0 +1,124 @@
+#bbs_main_content {
+	width: 970px;
+	margin: 0 auto;
+	background-color: white;
+	padding-top: 10px;
+	border-bottom: 1px solid #BDBDBD;
+	color:gray;
+}
+.bbs_top_link{
+	width:95%;
+ 	margin: 0 auto;
+}
+#floor_ownner {
+	width: 95%;
+	margin: 0 auto;
+	overflow:hidden;
+	border: 1px solid #BDBDBD;
+	border-top: none;
+}
+
+.ownner_topic_content {
+}
+
+.ownner_topic_title {
+	display: block;
+	width: 100%;
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+	height: 30px;
+	line-height: 30px;
+}
+
+.ownner_topic_left {
+	width: 150px;
+	padding: 15px;
+	float: left;
+}
+
+.ownner_topic_right {
+	width: 80%;
+	float: right;
+}
+
+.ownner_topic_content {
+	min-height: 200px;
+	overflow:hidden;
+	color:black;
+}
+
+.ownner_topic_other_info {
+	
+}
+
+.ownner_topic_attachment {
+	padding: 10px;
+}
+
+.attachment_one {
+	padding:5px;
+	display: block;
+	width: 200px;
+	height: 100px;
+}
+#topic_comment{
+	list-style-type: none;
+	width:95%;
+	margin:0 auto;
+}
+#topic_comment li{
+	width:100%;
+	overflow: hidden;
+	margin-top: 10px;
+	border: 1px solid #BDBDBD;
+
+}
+.topic_comment_headArea{
+	width:150px;
+	float: left;
+	padding: 15px;
+}
+.topic_head_img{
+	border: 1px solid #BDBDBD;
+	padding: 5px;
+}
+.headLine{
+	width:100%;
+	background-color:#9E9CE7;
+	height: 30px;
+	line-height: 30px;
+}
+.commentHeadLine{
+	width:100%;
+	background-color:#58CBD8;
+	height: 30px;
+	line-height: 30px;
+}
+.topic_comment_content{
+	width:83%;
+	float: right;
+	padding: 5px;
+	min-height:120px;
+	overflow:hidden;
+	margin-top: 10px;
+}
+#add_topic_comment{
+	width:95%;
+	height: 240px;
+	margin:0 auto;
+	margin-top:20px;
+	margin-bottom:10px;
+	border: 1px solid #BDBDBD;
+}
+.comment_right{
+	width:83%;
+	float: right;
+}
+.topic_comment_info{
+	width:83%;
+	float: right;
+}
+.error{
+	color:red;
+}

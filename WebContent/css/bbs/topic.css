@@ -1,0 +1,35 @@
+#bbs_main_content{
+	width:970px;
+	margin: 0 auto;
+	background-color:white;
+	padding-top:10px;
+	height:440x;
+	overflow: auto;
+	border-bottom: 1px solid #BDBDBD;
+}
+#bbs_logo_row{
+	width:95%;
+	margin:0 auto;
+	height: 35px;
+}
+#bbs_topic_div{
+	width:100%;
+	margin-bottom: 10px;
+}
+.topic_list_title{
+	display:block;
+	width:95%;
+	margin: 0 auto;
+	height: 30px;
+	line-height: 30px;
+	font-size: 15px;
+	color:white;
+	background-color: #9ecce7;
+}
+#topic_list_div{
+	width:95%;
+	margin: 0 auto;
+	border: 1px solid #BDBDBD;
+	height:330px;
+	overflow:hidden;
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+	<property tableColumn="id" voProperty="moduleId" type="int"></property>
+	<property tableColumn="module_name" voProperty="moduleName" type="string"></property>
+	<property tableColumn="create_time" voProperty="createTime" type="date"></property>
+	<property tableColumn="user_id" voProperty="user" type="User" entityClass="com.friend.vo.User">
+		<dao daoName="userDao"></dao>
+	</property>
+	<property tableColumn="module_img" voProperty="photoPath" type="string"></property>
+	<property tableColumn="topic_num" voProperty="topicCount" type="int"></property>
+</properties>
+	

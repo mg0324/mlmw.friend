@@ -1,0 +1,44 @@
+.bg{
+	margin:0 auto;
+	background: url("../../image/login_bg.jpg") repeat-x top left;
+	height: 481px;
+	width:100%;
+}
+.content{
+	margin: 0 auto;
+	width:900px;
+	height: 481px;
+}
+.left{
+
+	margin-top:83px;
+	width:600px;
+	height:398px;
+	float: left;
+}
+
+.desLocation p{
+	color:gray;
+	font-size:12px;
+}
+.right{
+	height: 481px;
+	float: left;
+}
+.loginFormTheme{
+	margin-top:150px;
+	width: 300px;
+}
+.loginFormTheme img{
+	float:right;
+	border: solid gray 1px;
+	border-radius:5px;
+	margin-right: 20px;
+}
+.desLocation img{
+	border-radius:10px;
+}
+#inputCheckCode{
+	width:50%;
+	
+}

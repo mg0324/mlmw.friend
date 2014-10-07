@@ -1,0 +1,38 @@
+.loginFormTheme{
+	margin-top:80px;
+	width: 360px;
+	height:300px;
+	background: url('../../image/bLoginBg.gif');
+}
+#bADDiv{
+	margin-top: 80px;
+}
+#btop{
+	width:100%;
+	height: 100px;
+	background-color: #8dcbed;
+	padding:0px;
+	margin: 0px;
+	border-bottom: 1px solid white;
+}
+#btop div{
+	padding:0px;
+	margin: 0px;
+	width:469px;
+	height:100px;
+	border-bottom: 1px solid white;
+	background: url("../../image/btop.png") top left no-repeat;
+}
+.validate_code{
+	display: inline-block;
+	
+}
+.validate_code img{
+	float: right;
+	border: 1px solid gray;
+	border-radius:5px;
+}
+.validate_code input{
+	width: 40%;
+	float: left;
+}

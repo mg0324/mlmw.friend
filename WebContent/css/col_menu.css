@@ -1,0 +1,60 @@
+/* CSS Document */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+#self_nav{
+	height: 36px;
+	width: 100%;
+	margin-top: 62px;
+	background-color: #363A40;
+	padding-left: 215px;
+}
+.my_menu {
+	font-size: 12px;
+}
+
+.my_menu li {/*水平菜单*/
+	float: left;
+	list-style: none;
+	margin-right: 2px;
+	position: relative;/*把包含块移动li元素*/
+}
+.my_menu a {
+	display: block;
+	/*position:relative;发现放在a元素中，
+      在标准游览器中惨不忍睹，
+      和纯CSS相册3的第一个运行框在chrome中遇到的bug一样*/
+	height: 36px;
+	width: 90px;
+	line-height: 36px;
+	color: white;
+	font-size:14px;
+	font-weight:bold;
+	text-decoration: none;
+	text-align: center;
+}
+.my_menu a:hover {
+	background: #0321FE;
+	color: #fff;
+	text-decoration: none;
+}
+/*新增的二级菜单部分*/
+.my_menu ul ul {
+	visibility: hidden;/*开始时是隐藏的*/
+	position: absolute;
+	left: 0px;
+	top: 36px;
+	background-color:#363A40;
+	z-index: 1;
+}
+.my_menu ul li:hover ul,/*非IE6*/  .menu ul a:hover ul {/*IE6*/
+	visibility: visible;
+	
+}
+.my_menu ul ul li {
+	clear: both;/*垂直显示*/
+	text-align: left;
+}
+
